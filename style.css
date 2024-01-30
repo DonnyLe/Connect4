@@ -1,0 +1,56 @@
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+.board {
+  border: 6px solid black;
+}
+
+header {
+  text-align: center;
+  background-color: aliceblue;
+  font-size: 3rem;
+  height: 10vh;
+  
+}
+
+#reset-button {
+  width: 10rem;
+  height: auto;
+  padding: 0.5rem;
+      margin: 6px;
+}
+
+.grid-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  
+
+  /* this selector selects all divs inside of .flex-container */
+  .grid-item {
+    background: white;
+    text-align: center;
+    flex-grow: 0;     /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   /* do not shrink - initial value: 1 */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 6px;
+  }
+
+
+.greenPiece {
+  background: green;
+}
+
+.redPiece {
+  background: red;
+}
